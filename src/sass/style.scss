@@ -12,7 +12,6 @@ button{
 	-o-transition: .35s;
 	transition: .35s;
 }
-
 html, body{font: 400 18px 'RobotoRegular', sans-serif}
 .container{
 	width: 100%;
@@ -25,6 +24,7 @@ html, body{font: 400 18px 'RobotoRegular', sans-serif}
 			display: block;
 		}
 }
+
 
 body{
 	background-image: url(../img/main-bg.jpg);
@@ -270,4 +270,207 @@ header{
 
 .rotor__list-i{
 	padding-right: 30px;
+}
+/* ====main-4===== */
+.main-4{
+		.whitebull-bg{
+			background: url(../img/bg-bike.png) no-repeat;
+			background-size: 100%;
+		&__img{
+			text-align: center;	
+		}
+	}
+}
+
+/* ====main-5===== */
+.main-5{
+	.holder-bike-bg{
+		background: url(../img/bg-bike2.png) no-repeat;
+		background-position: center center;
+		background-size: 100%;
+		position: relative;
+		.main-5-img{
+			position: absolute;
+			top: -22%;
+			left: 0;
+		}
+		.container{
+			display: flex;
+			flex-wrap: wrap;
+				.left{
+					width: 700px;
+				}
+				.right{
+					width: 470px;
+					margin-top: 180px;
+					color: #fff;
+					p{
+						margin-bottom: 35px;
+					}
+					p:last-child{
+						margin-bottom: 0;
+					}
+				}
+		}
+	}
+}
+/* ====main-6===== */
+
+.main-6{
+	margin-top: 230px;
+	.main-6-bike-bg{
+		background: url(../img/bike-bg.png) no-repeat;
+		background-position: center 70%;
+		background-size: 100%;
+	}
+	.container{
+		.main-6__title{
+			text-align: center;
+			font-size: 36px;
+			color: #fff;
+			font-family: "OrbitronBlack";
+			text-transform: uppercase;
+			position: relative;
+			z-index: 3;
+		}
+		.main-6-holder{
+			display: flex;
+			flex-wrap: wrap;
+			align-items: center;
+			margin-top: 90px;
+			.main-6-holder__img{
+				width: 700px;
+				display: flex;
+				justify-content: center;
+			}
+			.main-6-form{
+				width: 470px;
+				display: flex;
+    		justify-content: center;
+    		img{
+    			position: absolute;
+    			right: -31.3%;
+    			top: -45%;
+    		}
+				&__trans-form{
+					transform: skew(-20deg, 0);
+    			-moz-transform: skew(-20deg, 0);
+    			-webkit-transform: skew(-20deg, 0);
+    			-o-transform: skew(-15deg, 0);
+    			width: 400px;
+    			height: 36px;
+    			margin-bottom: 18px;
+    			font-family: "MyriadProRegular";
+    			font-size: 18px;
+				}
+				.main-6-input{
+					background: #d3d3d3;
+					border: 0;
+					padding-left: 24px;
+				}
+				.main-6-input:focus{
+					border: 2px solid #f84444;
+				}
+				.main-6-submit{
+					background: #f84444;
+					border: 0;
+					cursor: pointer;
+					-webkit-transition: all 0.3s; 
+    				-moz-transition: all 0.3s;
+    				 transition: all 0.3s;
+				}
+				.main-6-submit:hover{
+					background: #f53333;
+				}	
+				.orb{
+					font-family: "OrbitronLight";
+					font-size: 19px;
+						span{
+							text-transform: uppercase;
+							font-family: "OrbitronBlack";
+							font-size: 28px;
+						}
+					}
+					.text-center{
+						text-align: center;
+						position: relative;
+						color: #fff;
+					}
+					.myriad{
+						font-size: 28px;
+						font-family: "OrbitronLight";
+				}
+			}
+		}
+	}
+
+}
+/* ====main-7===== */
+
+.main-7{
+	margin-top: 260px;
+	.container{
+		.partners{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			&__3{
+				align-items: center;
+				display: flex;
+			}
+		}
+	}
+}
+
+/* ====main-8===== */
+
+.main-8{
+	margin-top: 200px;
+	.container{
+		.main-8__title{
+			text-align: center;
+		}
+		.fs-60{
+			font-size: 60px;
+			font-family:  "OrbitronBlack";
+			margin-bottom: 125px;
+			color: #fff;
+		}
+		.fs-36{
+			font-size: 36px;
+			font-family:  "OrbitronLight";
+			margin-bottom: 40px;
+			color: #fff;
+		}
+		.social{
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			&__item{
+				padding-right: 37px;
+			}
+			&__item:last-child{
+				padding: 0;
+			}	
+		}
+	}
+}
+
+
+/* ====footer===== */
+.footer{
+	margin: 210px 0 14px;
+	color: #fff;
+	&__copy{
+		text-transform: uppercase;
+	}	
+	.container{
+		max-width: 585px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: flex-end;
+
+	}
 }
