@@ -89,7 +89,7 @@ header{
 	opacity: 0.6;
 	border: none;
 	position: absolute;
-	    top: -65px;
+	top: -65px;
     left: 44.32%;
     background-image: url(../img/arrow-down.png) ;
     background-repeat: no-repeat;
@@ -226,4 +226,48 @@ header{
 	margin-top: 130px;
 	float: left;
 	width: 743px;
+	position: relative;
+}
+
+
+.rotor_pick{
+	font-family: "OrbitronLight";
+	font-size: 21px;
+	color: white;
+	position: absolute;
+	bottom: 20px;
+	left: 100px;
+	bottom: 28px;
+    left: 285px;
+}
+
+.rotor__content{
+	float: left;
+	margin-left: 30px;
+}
+
+.rotor__img{
+	margin-top: 35px;
+	margin-left: 60px;
+	margin-bottom: 60px;
+}
+
+.rotor__text{
+	font-family: "RobotoRegular";
+	font-size: 14px;
+	color: #fff;
+	display: inline-block;
+	width: 230px;
+}
+.rotor__list{
+	li{
+		padding-top: 35px;
+			display: flex;
+			display: -webkit-flex;
+			align-items: center;
+	}
+}
+
+.rotor__list-i{
+	padding-right: 30px;
 }
