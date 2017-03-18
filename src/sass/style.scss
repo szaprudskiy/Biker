@@ -12,7 +12,10 @@ button{
 	-o-transition: .35s;
 	transition: .35s;
 }
-html, body{font: 400 18px 'RobotoRegular', sans-serif}
+html, body{
+	font: 400 18px 'RobotoRegular', sans-serif;
+	overflow-x: hidden;
+}
 .container{
 	width: 100%;
 	max-width:  1170px;
@@ -27,7 +30,8 @@ html, body{font: 400 18px 'RobotoRegular', sans-serif}
 
 
 body{
-	background-image: url(../img/main-bg.jpg);
+	background: #070707;
+	
 }
 
 /* ==========header============ */
@@ -274,7 +278,7 @@ header{
 /* ====main-4===== */
 .main-4{
 		.whitebull-bg{
-			background: url(../img/bg-bike.png) no-repeat;
+			background: url(../img/qwe.png) no-repeat;
 			background-size: 100%;
 		&__img{
 			text-align: center;	
@@ -285,13 +289,13 @@ header{
 /* ====main-5===== */
 .main-5{
 	.holder-bike-bg{
-		background: url(../img/bg-bike2.png) no-repeat;
+		background: url(../img/ewq.png) no-repeat;
 		background-position: center center;
 		background-size: 100%;
 		position: relative;
 		.main-5-img{
 			position: absolute;
-			top: -22%;
+			top: -16%;
 			left: 0;
 		}
 		.container{
@@ -350,7 +354,7 @@ header{
     		img{
     			position: absolute;
     			right: -31.3%;
-    			top: -45%;
+    			top: -12%;
     		}
 				&__trans-form{
 					transform: skew(-20deg, 0);
@@ -450,9 +454,36 @@ header{
 			&__item{
 				padding-right: 37px;
 			}
+			&__link{
+				display: block;
+				width: 60px;
+				height: 60px;
+				background: url(../img/sprite.png) no-repeat;
+			}
 			&__item:last-child{
 				padding: 0;
-			}	
+			}
+			&__inst:hover{
+				background: url(../img/hover-inst.png) no-repeat;
+			}
+			&__twit{
+				background-position: -100px 0;
+			}
+			&__twit:hover{
+				background: url(../img/hover-twit.png) no-repeat;
+			}
+			&__google{
+				background-position: -199px 0;
+			}
+			&__google:hover{
+				background: url(../img/hover-google.png) no-repeat;
+			}
+			&__fb{
+				background-position: -300px 0;
+			}
+			&__fb:hover{
+				background: url(../img/hover-fb.png) no-repeat;
+			}				
 		}
 	}
 }
